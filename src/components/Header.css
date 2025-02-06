@@ -1,13 +1,22 @@
 header {
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
   height: 70px;
   align-items: center;
   max-width: 1200px;
   margin: auto;
-  border-bottom: 1px solid #eeeeee;
+  background: var(--color02);
+  color: #ffffff;
   font-size: 18px;
   padding: 0px 10px;
+}
+
+header .logo span,
+header .navigation .link,
+header .items span {
+  color: #ffffff;
 }
 
 .logo {
@@ -24,7 +33,7 @@ header {
 }
 
 .navigation .link.active {
-  background-color: #eeeeee;
+  background-color: var(--color01);
   border-radius: 5px;
 }
 

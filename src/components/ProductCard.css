@@ -1,4 +1,6 @@
 .productCard {
+  background-color: var(--color03);
+  color: var(--color02);
   width: 350px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 5px;
@@ -17,6 +19,8 @@
 
 .productCard .name {
   margin: 10px 0px;
+  font-size: large;
+  font-weight: 600;
 }
 
 .productCard p {
@@ -36,14 +40,14 @@
   border-radius: 5px;
   font-size: 16px;
   color: #ffffff;
-  background-color: #1c59ae;
+  background-color: var(--color02);
   padding: 7px 10px;
   cursor: pointer;
   max-width: 150px;
 }
 
 .productCard button:hover {
-  background-color: #103f80;
+  background-color: var(--color02Darker);
 }
 
 .productCard .remove {
